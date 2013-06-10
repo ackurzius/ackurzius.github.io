@@ -1,0 +1,114 @@
+/** Stately setup
+*************************************/
+@font-face {
+  font-family: 'stately-webfont';
+  src: url("../font/stately-webfont.eot");
+  src: url("../font/stately-webfont.eot?#iefix") format("embedded-opentype"), url("../font/stately-webfont.woff") format("woff"), url("../font/stately-webfont.ttf") format("truetype"), url("../font/stately-webfont.svg#testfontRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.stately {
+  font: normal normal 600px/100% "stately-webfont";
+  font-size-adjust: none;
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -moz-font-feature-settings: "liga=1";
+  -ms-font-feature-settings: "liga" 1;
+  -ms-font-feature-settings: "liga", "dlig";
+  overflow: hidden;
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+.stately li {
+  float: left;
+  margin: -20% 0 0 -100%;
+  position: relative;
+  left: 101%;
+  width: 100%;
+  cursor: default;
+  -webkit-transition: all 1s ease-in;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+/** Style customizations
+*************************************/
+.stately {
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  border-top: 1px solid #f2f2f2;
+}
+
+#election
+#election .al,
+#election .ca,
+#election .ct,
+#election .de,
+#election .dc,
+#election .fl,
+#election .ga,
+#election .hi,
+#election .id,
+#election .il,
+#election .ia,
+#election .ks,
+#election .la,
+#election .ma,
+#election .mi,
+#election .mn,
+#election .ms,
+#election .mt,
+#election .mt,
+#election .nj,
+#election .nm,
+#election .ny,
+#election .nd,
+#election .oh,
+#election .pa,
+#election .ri,
+#election .sc,
+#election .tx,
+#election .wa,
+#election .wv,
+#election .in,
+#election .wi{color: #F1EEF6;}
+
+#election .nc,
+#election .ak,
+#election .az,
+#election .ar,
+#election .ok{color: #2B8CBE;}
+
+#election .ne,
+#election .sd,
+#election .co,
+#election .ut,
+#election .nh,
+#election .me,
+#election .md,
+#election .va,
+#election .or,
+#election .vt,
+#election .ky,
+#election .nv,
+#election .mo,
+#election .tn,
+#election .wy{color:#74A9CF;}
+
+
+
+
+
